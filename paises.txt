@@ -1,0 +1,11 @@
+Espania,Madrid
+Peru,Lima
+Rusia,Moscu
+Colombia,Bogota
+Ecuador,Quito
+Chile,Santiago
+Paises Bajos,Amsterdam
+Reino Unido,Londres
+Francia,Paris
+Alemania,Berlin
+Polonia, Varsovia
