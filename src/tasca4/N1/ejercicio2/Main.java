@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class Main {
 	public static void main(String[] args) {
 		
-		 Integer dni = 12345678;
+		 Integer dni = 12354312;
 		 
 		 Integer resto = dni%23;
 		 System.out.println(resto);
@@ -40,9 +40,6 @@ public class Main {
 		 
 		 numeroDNI = dni + tablaLetrasDNI.get(resto).toUpperCase();
 		 System.out.println(numeroDNI);
-		 
-		 //if(resto.equals(tablaLetrasDNI.)) {}
-		 
-		 System.out.println(dni);
+	 
 	}
 }

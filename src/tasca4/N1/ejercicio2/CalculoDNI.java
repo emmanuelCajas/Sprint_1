@@ -6,7 +6,7 @@ public class CalculoDNI {
 
 	public Integer numero;
 	
-	public void calcularLetra(Integer numero) {
+	public String calcularLetra(Integer numero) {
 		
 		 Integer dni = numero;		 
 		 Integer resto = dni%23;		
@@ -37,9 +37,10 @@ public class CalculoDNI {
 		 tablaLetrasDNI.put(21,"K");
 		 tablaLetrasDNI.put(22,"E");
 		
-		 String numeroDNI="";
-		 
-		 numeroDNI = dni + tablaLetrasDNI.get(resto).toUpperCase();
+		 String numeroDNI="";		 
+		 numeroDNI = dni + tablaLetrasDNI.get(resto).toUpperCase();		 
+		 		 
+		 return numeroDNI;
 		 
 	}
 	
