@@ -6,7 +6,11 @@ import java.util.Arrays;
 public class Main {
 	public static void main(String[] args) {
 		
-		File directorio = new File("c:/Users/formacio/Desktop");
+		
+		//"c:/Users/formacio/Desktop"
+		//"c:/Users/rodri/Desktop"
+		
+		File directorio = new File("c:/Users/rodri/Desktop");
 		String[] listaDirectorios = directorio.list();
 		
 		Arrays.sort(listaDirectorios);
