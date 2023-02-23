@@ -43,6 +43,6 @@ public class Main {
 		 
 		 //if(resto.equals(tablaLetrasDNI.)) {}
 		 
-		 
+		 System.out.println(dni);
 	}
 }
