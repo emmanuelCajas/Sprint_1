@@ -1,7 +1,6 @@
 package tasca5.N1.ejercicio2;
 
 import java.io.File;
-import java.util.Arrays;
 
 public class Main {
 
@@ -31,38 +30,12 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		String sDirectorio = "c:/Users/rodri/Desktop/eclipse/Sprint_1";
+		String sDirectorio = "c:/Users/rodri/Desktop/meses";
 		File directorio = new File(sDirectorio);
 		
 		listarDirectorio(directorio,"");
 
 	}
 
-//	public static void listar(File directorio, String separador) {
-//
-//		File[] ficheros = directorio.listFiles();
-//		Arrays.sort(ficheros);
-//		for (int i = 0; i < ficheros.length; i++) {
-//
-//			if (ficheros[i].isDirectory()) {
-//				
-//				System.out.println(ficheros[i].getName() + "  D");
-//				String nuevoSeparador;
-//				nuevoSeparador = separador + " ";
-//				
-//				listar(ficheros[i],nuevoSeparador);
-//			}else {
-//				System.out.println(ficheros[i].getName() + "  F");
-//			}
-//		}
-//
-//	}
-//
-//	public static void main(String[] args) {
-//
-//		File directorio = new File("c:/Users/rodri/Desktop/eclipse/Sprint_1");
-//		String separador ="";
-//		listar(directorio,separador);
-//
-//	}
+
 }
