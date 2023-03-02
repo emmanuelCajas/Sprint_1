@@ -7,8 +7,12 @@ public class Principal {
 		
 		Coche coche1 = new Coche("hyundai", 235);
 	
+		//Llamanado al metodo acelerar
 		System.out.println(coche1);
-		coche1.acelerar(); 
+		coche1.acelerar();
+		
+		
+		//Llamando al metodo frenar
 		Coche.frenar();
 		
 		
