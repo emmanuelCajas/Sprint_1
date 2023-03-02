@@ -13,6 +13,8 @@ public class Principal {
 		Venta venta1 = new Venta();
 		Venta venta2 = new Venta();
 		
+		
+		//Enviando la Venta vacia
 		try {
 			venta1.calcularTotal(listaProductos2);
 		} catch (VendaBuidaException e) {
@@ -26,22 +28,22 @@ public class Principal {
 						
 		listaProductos1.add(producto1);
 		listaProductos1.add(producto2);
-			
+		
+		
 		listaProductos2.add(producto3);
 		listaProductos2.add(producto4);
+		
 		
 		try {
 			venta1.calcularTotal(listaProductos1);
 			venta2.calcularTotal(listaProductos2);
+			
 		} catch (VendaBuidaException e) {
 			System.out.println(e.getMessage());
-		}catch (IndexOutOfBoundsException e) {
+		}catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println(e.getMessage());
 		}		
 		
-		System.out.println(venta1.toString());
-		System.out.println(venta2.toString());
-				
 	}
 	
 }

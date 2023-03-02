@@ -47,8 +47,7 @@ public class Main {
 				}
 			}
 		}
-		
-		
+			
 		
 		//Obtiene las key del HashMap y los guarda en una lista
 		

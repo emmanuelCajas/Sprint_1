@@ -22,12 +22,10 @@ public class principal {
 		ListIterator<Integer> it = numeros.listIterator(numeros.size());
 
 		while(it.hasPrevious()) {
-			numeros2.add(it.previous());
-			
+			numeros2.add(it.previous());			
 		}
 		
 		System.out.println(numeros2);
-	
-	}
+		}
 	
 }

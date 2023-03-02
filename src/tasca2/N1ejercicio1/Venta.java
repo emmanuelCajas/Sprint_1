@@ -20,24 +20,24 @@ public class Venta {
 	}
 	
 
-	public void calcularTotal( ArrayList<Producto> listaProductos) throws VendaBuidaException {		
+	public void calcularTotal( ArrayList<Producto> listaProductos) throws VendaBuidaException,ArrayIndexOutOfBoundsException {		
 		
 		double suma=0;
 		
+		
+		
 		if(listaProductos.size() == 0) {
-			throw new VendaBuidaException("Para hacer una venta primero debes a�adir productos");
+			throw new VendaBuidaException("VendaBuidaException Para hacer una venta primero debes añadir productos");
+			
 		}else {
-			for (int i = 0; i <listaProductos.size()+1; i++) {
+			for (int i = 0; i <listaProductos.size(); i++) {
 				suma =  suma+ listaProductos.get(i).getPrecio();
 			}
-			precioTotalVenta=suma;
+			precioTotalVenta=suma;			 
+			System.out.println(listaProductos.toString() + " " + "Precio Total " + precioTotalVenta);
+			throw new ArrayIndexOutOfBoundsException("ArrayIndexOutOfBoundsException atrapado");
 		}
 				
 	}
-
-	@Override
-	public String toString() {
-		return "Venta [listaProductos=" + listaProductos + ", precioTotalVenta=" + precioTotalVenta + "]";
-	}
-		
+	
 }

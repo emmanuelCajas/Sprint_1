@@ -41,6 +41,7 @@ public class Principal {
 			System.out.println("for " + it.next());
 		}
 
+		
 	}
 
 }
