@@ -15,8 +15,6 @@ public class Main {
 		listaRestaurant.add(new Restaurant("La granja",5));
 		
 		System.out.println(listaRestaurant);	
-		
-		
-		
+	
 	}
 }
